@@ -1,6 +1,6 @@
 // 대부분의 텍스트와 이미지 경로는 이 객체만 수정하면 바꿀 수 있습니다.
 const siteContent = {
-  brand: "COREWORKSLAB",
+  brand: "vibe",
   fullName: "똑딱이",
   role: "새로운 경험과 기술을 연결하는 사람",
   hero: {
