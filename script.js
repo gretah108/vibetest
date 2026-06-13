@@ -1,11 +1,11 @@
 // 대부분의 텍스트와 이미지 경로는 이 객체만 수정하면 바꿀 수 있습니다.
 const siteContent = {
   brand: "COREWORKSLAB",
-  fullName: "COREWORKSLAB 김현아",
+  fullName: "똑딱이",
   role: "새로운 경험과 기술을 연결하는 사람",
   hero: {
     eyebrow: "Personal Promotion Website",
-    title: "안녕하세요,\n저는 COREWORKSLAB 김현아입니다.",
+    title: "안녕하세요,\n저는 똑딱이입니다.",
     description:
       "나를 소개하고, 내가 만든 것들과 좋아하는 것들을 담은 공간입니다.",
   },
