@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COREWORKSLAB 김현아 | Personal Site</title>
+    <meta
+      name="description"
+      content="COREWORKSLAB 김현아의 개인 홍보용 원페이지 포트폴리오 사이트"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-orb orb-a" aria-hidden="true"></div>
+    <div class="page-orb orb-b" aria-hidden="true"></div>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="header-shell">
+        <a class="brand-mark" href="#home" id="brand-name">COREWORKSLAB</a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
+          <a href="#home">홈</a>
+          <a href="#about">자기소개</a>
+          <a href="#portfolio">포트폴리오</a>
+          <a href="#hobbies">취미</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="section-shell hero-shell">
+          <div class="hero-panel">
+            <p class="hero-eyebrow" id="hero-eyebrow"></p>
+            <h1 class="hero-title" id="hero-title"></h1>
+            <p class="hero-description" id="hero-description"></p>
+            <div class="hero-actions">
+              <a class="primary-button" href="#about">자기소개 보기</a>
+              <a class="secondary-button" href="#portfolio">작업 살펴보기</a>
+            </div>
+          </div>
+
+          <div class="scroll-cue" aria-hidden="true">
+            <span class="scroll-cue-line"></span>
+            <span class="scroll-cue-text">Scroll</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section reveal" id="about">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">About</p>
+            <h2>경험과 관심사를 한 화면에 담았습니다</h2>
+          </div>
+
+          <div class="about-layout">
+            <div class="profile-panel reveal">
+              <div class="profile-visual" id="profile-visual"></div>
+              <p class="profile-caption">프로필 이미지를 추가하면 이 영역이 자연스럽게 채워집니다.</p>
+            </div>
+
+            <div class="about-copy reveal">
+              <p class="about-role" id="about-role"></p>
+              <h3 class="about-name" id="about-name"></h3>
+              <p class="about-intro" id="about-intro"></p>
+
+              <div class="timeline-block">
+                <p class="timeline-label">Timeline</p>
+                <ul class="timeline-list" id="timeline-list"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section reveal" id="portfolio">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Portfolio</p>
+            <h2>지금까지 만든 것들을 차분하게 정리했습니다</h2>
+          </div>
+
+          <div class="portfolio-grid" id="portfolio-grid"></div>
+        </div>
+      </section>
+
+      <section class="content-section reveal" id="hobbies">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Hobbies</p>
+            <h2>일상에서 영감을 주는 취미들도 함께 소개합니다</h2>
+          </div>
+
+          <div class="hobby-grid" id="hobby-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-shell">
+        <p id="footer-copy"></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
