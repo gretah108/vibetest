@@ -335,10 +335,10 @@ img {
 }
 
 .section-heading h2 {
-  max-width: 740px;
+  max-width: 920px;
   margin: 0;
-  font-size: clamp(2rem, 5vw, 3.6rem);
-  line-height: 1.08;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.12;
   letter-spacing: -0.05em;
 }
 
@@ -735,6 +735,10 @@ img {
 
   .hero-title {
     font-size: clamp(2.2rem, 10vw, 3rem);
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.65rem, 6vw, 2.4rem);
   }
 
   .hero-description,
