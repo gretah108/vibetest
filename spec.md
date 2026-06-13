@@ -236,7 +236,7 @@ personal-site/
 
 ### 이름
 
-`[COREWORKSLAB 김현아]`
+`[나나]`
 
 ### 자기소개
 
