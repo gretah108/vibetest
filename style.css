@@ -219,8 +219,8 @@ img {
 
 .hero-title {
   margin: 0;
-  font-size: clamp(3rem, 8vw, 6.4rem);
-  line-height: 0.98;
+  font-size: clamp(2.7rem, 5.8vw, 4.9rem);
+  line-height: 1.05;
   letter-spacing: -0.06em;
   white-space: pre-line;
   animation: hero-fade 1s ease both 0.22s;
@@ -734,7 +734,7 @@ img {
   }
 
   .hero-title {
-    font-size: clamp(2.4rem, 13vw, 3.6rem);
+    font-size: clamp(2.2rem, 10vw, 3rem);
   }
 
   .hero-description,

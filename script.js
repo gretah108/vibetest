@@ -5,7 +5,7 @@ const siteContent = {
   role: "새로운 경험과 기술을 연결하는 사람",
   hero: {
     eyebrow: "Personal Promotion Website",
-    title: "안녕하세요,\n저는 김현아입니다.",
+    title: "안녕하세요, 저는 김현아입니다.",
     description:
       "나를 소개하고, 내가 만든 것들과 좋아하는 것들을 담은 공간입니다.",
   },
